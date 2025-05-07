@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مزحة برشلونة</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- First Page -->
+        <div id="firstPage" class="card">
+            <div class="logo-container">
+                <img src="barca.jpg" alt="Barcelona Logo" class="logo">
+            </div>
+            <h2 class="title">هل أنت مشجع لبرشلونة؟</h2>
+            <p class="subtitle">اضغط على الزر لمشاهدة شيء مميز!</p>
+            <button id="actionButton" class="action-button">اضغط هنا</button>
+        </div>
+
+        <!-- Second Page (Initially Hidden) -->
+        <div id="secondPage" class="card video-card hidden">
+            <div class="video-header">
+                <img src="Laughing Emoji Transparent Pictures To Pin On Pinterest - Laughing Emoji PNG Transparent With Clear Background ID 284936 _ TopPNG.jpg" alt="Laughing Emoji" class="emoji">
+                <h2 class="title">برشلونة خسرت المباراة!</h2>
+            </div>
+            
+            <div class="video-container">
+                <video id="videoPlayer" class="video-player">
+                    <source src="br.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            
+            <div class="button-container">
+                <button id="pauseButton" class="control-button">إيقاف مؤقت</button>
+                <button id="playButton" class="control-button">تشغيل</button>
+            </div>
+            
+            <div class="emoji-container">
+                <img src="Laughing Emoji Transparent Pictures To Pin On Pinterest - Laughing Emoji PNG Transparent With Clear Background ID 284936 _ TopPNG.jpg" alt="Laughing Emoji" class="emoji">
+            </div>
+            
+            <button id="returnButton" class="return-button">العودة للصفحة الرئيسية</button>
+        </div>
+    </div>
+    <footer>
+        <p>made by dhyaa</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
